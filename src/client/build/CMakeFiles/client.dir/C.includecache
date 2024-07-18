@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../include/proto.h
+site_type.h
+../../include/site_type.h
+
+../../include/site_type.h
+stdint.h
+-
+
+/home/zxz/Proj/C_C++/linux_c/IPV4_StreamingMedia/src/client/client.c
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+arpa/inet.h
+-
+net/if.h
+-
+fcntl.h
+-
+wait.h
+-
+errno.h
+-
+getopt.h
+-
+proto.h
+/home/zxz/Proj/C_C++/linux_c/IPV4_StreamingMedia/src/client/proto.h
+client.h
+/home/zxz/Proj/C_C++/linux_c/IPV4_StreamingMedia/src/client/client.h
+
+/home/zxz/Proj/C_C++/linux_c/IPV4_StreamingMedia/src/client/client.h
+
